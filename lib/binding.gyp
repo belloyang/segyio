@@ -1,12 +1,12 @@
 {
   "targets": [
     {
-      "target_name": "segyio",
+      "target_name": "libsegyio",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
-      "type": "shared_library",
+      "type": "static_library",
       "sources": [
         "src/segy.c"
       ],
