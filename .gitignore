@@ -1,2 +1,4 @@
 python/segyio/version.py
 python/segyio/segyio.dll
+build
+lib/build/**
