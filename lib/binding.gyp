@@ -4,7 +4,7 @@
       "target_name": "libsegyio",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "static_library",
       "sources": [

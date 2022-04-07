@@ -4,7 +4,7 @@
       "target_name": "segyinfo",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -33,7 +33,7 @@
       "target_name": "segyinspect",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -62,7 +62,7 @@
       "target_name": "segyio-catb",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -93,7 +93,7 @@
       "target_name": "segyio-cath",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -123,7 +123,7 @@
       "target_name": "segyio-catr",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -153,7 +153,7 @@
       "target_name": "segyio-crop",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
@@ -183,7 +183,7 @@
       "target_name": "flip-endianness",
       "cflags!": ["-fno-exceptions", "-Wno-unused-parameter"],
       "cflags_cc!": ["-fno-exceptions", "-Wno-unused-parameter"],
-      "cflags": ["-Wall", "-Wextra", "-Wpedantic"],
+      "cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=c99"],
       "cflags_cc": ["-Wall", "-Wextra", "-Wpedantic"],
       "type": "executable",
       "sources": [
